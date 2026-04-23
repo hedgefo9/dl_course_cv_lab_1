@@ -1,0 +1,6 @@
+============================================================
+RUN: p4_baseline_long
+START: 2026-04-23 16:11:17
+LOG: artifacts/logs/p4_20260423_161117/p4_baseline_long.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/custom_models_experiments.py --run-name baseline_long --phase baseline --models custom_cnn tiny_vit --split-csv artifacts/baseline/splits.csv --output-root artifacts/custom_models --plots-root artifacts/plots/custom_models --epochs-cnn 20 --epochs-vit 20 --num-workers 0
+============================================================

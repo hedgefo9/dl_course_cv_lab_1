@@ -1,0 +1,5 @@
+run_name,hypothesis,best_val_macro_f1,test_macro_f1,test_accuracy
+h1_resnet_unfreeze_weak,H1: weak + unfreeze,0.9534388798775656,0.9412035669249814,0.9477977161500816
+h3_resnet_unfreeze_strong_weighted_ls,H3: strong + unfreeze + weighted+LS,0.9495072698516134,0.9292394992495095,0.9396411092985318
+h2_resnet_unfreeze_strong,H2: strong + unfreeze,0.9493569601777946,0.9244100656861396,0.936378466557912
+h0_resnet_frozen_weak,H0: weak + frozen,0.8697200583806726,0.8659083664938724,0.8738444806960305

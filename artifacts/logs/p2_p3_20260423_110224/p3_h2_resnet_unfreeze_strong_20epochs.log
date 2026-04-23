@@ -1,0 +1,29 @@
+Using device: mps
+Run name: h2_resnet_unfreeze_strong_20epochs
+Settings: augmentation=strong, trainable_backbone=True, weighted_loss=False, label_smoothing=0.0
+
+=== Training resnet18 ===
+[resnet18] epoch 01/20 | train_loss=0.6920, val_loss=0.2767, val_acc=0.9092, val_macro_f1=0.8993
+[resnet18] epoch 02/20 | train_loss=0.3438, val_loss=0.2201, val_acc=0.9250, val_macro_f1=0.9183
+[resnet18] epoch 03/20 | train_loss=0.2575, val_loss=0.2276, val_acc=0.9288, val_macro_f1=0.9214
+[resnet18] epoch 04/20 | train_loss=0.2118, val_loss=0.2378, val_acc=0.9293, val_macro_f1=0.9238
+[resnet18] epoch 05/20 | train_loss=0.1790, val_loss=0.2045, val_acc=0.9337, val_macro_f1=0.9263
+[resnet18] epoch 06/20 | train_loss=0.1517, val_loss=0.1899, val_acc=0.9375, val_macro_f1=0.9312
+[resnet18] epoch 07/20 | train_loss=0.1217, val_loss=0.2077, val_acc=0.9364, val_macro_f1=0.9310
+[resnet18] epoch 08/20 | train_loss=0.1091, val_loss=0.1878, val_acc=0.9358, val_macro_f1=0.9290
+[resnet18] epoch 09/20 | train_loss=0.0891, val_loss=0.1931, val_acc=0.9413, val_macro_f1=0.9348
+[resnet18] epoch 10/20 | train_loss=0.0799, val_loss=0.1828, val_acc=0.9473, val_macro_f1=0.9425
+[resnet18] epoch 11/20 | train_loss=0.0669, val_loss=0.1751, val_acc=0.9413, val_macro_f1=0.9346
+[resnet18] epoch 12/20 | train_loss=0.0558, val_loss=0.1677, val_acc=0.9467, val_macro_f1=0.9416
+[resnet18] epoch 13/20 | train_loss=0.0499, val_loss=0.1828, val_acc=0.9440, val_macro_f1=0.9398
+[resnet18] epoch 14/20 | train_loss=0.0459, val_loss=0.1686, val_acc=0.9516, val_macro_f1=0.9464
+[resnet18] epoch 15/20 | train_loss=0.0376, val_loss=0.1698, val_acc=0.9467, val_macro_f1=0.9411
+[resnet18] epoch 16/20 | train_loss=0.0420, val_loss=0.1706, val_acc=0.9527, val_macro_f1=0.9484
+[resnet18] epoch 17/20 | train_loss=0.0338, val_loss=0.1594, val_acc=0.9538, val_macro_f1=0.9494
+[resnet18] epoch 18/20 | train_loss=0.0316, val_loss=0.1573, val_acc=0.9516, val_macro_f1=0.9473
+[resnet18] epoch 19/20 | train_loss=0.0296, val_loss=0.1594, val_acc=0.9500, val_macro_f1=0.9454
+[resnet18] epoch 20/20 | train_loss=0.0287, val_loss=0.1571, val_acc=0.9521, val_macro_f1=0.9479
+
+=== Summary ===
+model_name  best_epoch  best_val_macro_f1  train_seconds  test_accuracy  test_macro_f1  test_weighted_f1  test_macro_precision  test_macro_recall
+  resnet18          17           0.949357     763.221294       0.936378        0.92441          0.935589              0.934033           0.918041

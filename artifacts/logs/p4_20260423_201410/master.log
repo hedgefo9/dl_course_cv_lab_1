@@ -1,0 +1,14 @@
+============================================================
+RUN: p4_baseline_long
+START: 2026-04-23 20:14:10
+LOG: artifacts/logs/p4_20260423_201410/p4_baseline_long.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/custom_models_experiments.py --run-name baseline_long --phase baseline --models custom_cnn tiny_vit --split-csv artifacts/baseline/splits.csv --output-root artifacts/custom_models --plots-root artifacts/plots/custom_models --epochs-cnn 40 --epochs-vit 40 --num-workers 0 --batch-size-vit 32 --vit-dim 192 --vit-depth 8 --vit-heads 6 --lr-vit-baseline 5e-4 --vit-drop-path-baseline 0.10 --vit-label-smoothing-baseline 0.05 --vit-mixup-alpha-baseline 0.0 --vit-warmup-epochs-baseline 3 --vit-min-lr-ratio-baseline 0.15
+============================================================
+END: 2026-04-23 21:15:44 | EXIT_CODE: 0 | RUN: p4_baseline_long
+============================================================
+RUN: p4_improved_long
+START: 2026-04-23 21:15:44
+LOG: artifacts/logs/p4_20260423_201410/p4_improved_long.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/custom_models_experiments.py --run-name improved_long --phase improved --models custom_cnn tiny_vit --split-csv artifacts/baseline/splits.csv --output-root artifacts/custom_models --plots-root artifacts/plots/custom_models --epochs-cnn 40 --epochs-vit 40 --num-workers 0 --batch-size-vit 32 --vit-dim 256 --vit-depth 10 --vit-heads 8 --lr-vit-improved 3e-4 --vit-drop-path-improved 0.20 --vit-label-smoothing-improved 0.08 --vit-mixup-alpha-improved 0.0 --vit-warmup-epochs-improved 3 --vit-min-lr-ratio-improved 0.05 --improved-random-erasing-prob 0.15
+============================================================
+END: 2026-04-23 22:46:52 | EXIT_CODE: 0 | RUN: p4_improved_long

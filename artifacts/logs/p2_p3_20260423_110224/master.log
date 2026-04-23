@@ -1,0 +1,42 @@
+============================================================
+RUN: p2_baseline_resnet_vit_20epochs
+START: 2026-04-23 11:02:24
+LOG: artifacts/logs/p2_p3_20epochs_20260423_110224/p2_baseline_resnet_vit_20epochs.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/baseline_experiments.py --output-root artifacts/baseline_20epochs --plots-root artifacts/plots_20epochs --epochs-resnet 20 --epochs-vit 20 --num-workers 0
+============================================================
+END: 2026-04-23 11:41:28 | EXIT_CODE: 0 | RUN: p2_baseline_resnet_vit_20epochs
+============================================================
+RUN: p3_h0_resnet_frozen_weak_20epochs
+START: 2026-04-23 11:41:28
+LOG: artifacts/logs/p2_p3_20epochs_20260423_110224/p3_h0_resnet_frozen_weak_20epochs.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/improved_baseline_experiments.py --run-name h0_resnet_frozen_weak_20epochs --models resnet18 --augmentation weak --label-smoothing 0.0 --output-root artifacts/improved_baseline_20epochs --plots-root artifacts/plots_20epochs --split-csv artifacts/baseline_20epochs/splits.csv --epochs-resnet 20 --epochs-vit 20 --num-workers 0
+============================================================
+END: 2026-04-23 11:47:56 | EXIT_CODE: 0 | RUN: p3_h0_resnet_frozen_weak_20epochs
+============================================================
+RUN: p3_h1_resnet_unfreeze_weak_20epochs
+START: 2026-04-23 11:47:56
+LOG: artifacts/logs/p2_p3_20epochs_20260423_110224/p3_h1_resnet_unfreeze_weak_20epochs.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/improved_baseline_experiments.py --run-name h1_resnet_unfreeze_weak_20epochs --models resnet18 --augmentation weak --trainable-backbone --label-smoothing 0.0 --output-root artifacts/improved_baseline_20epochs --plots-root artifacts/plots_20epochs --split-csv artifacts/baseline_20epochs/splits.csv --epochs-resnet 20 --epochs-vit 20 --num-workers 0
+============================================================
+END: 2026-04-23 11:59:46 | EXIT_CODE: 0 | RUN: p3_h1_resnet_unfreeze_weak_20epochs
+============================================================
+RUN: p3_h2_resnet_unfreeze_strong_20epochs
+START: 2026-04-23 11:59:46
+LOG: artifacts/logs/p2_p3_20epochs_20260423_110224/p3_h2_resnet_unfreeze_strong_20epochs.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/improved_baseline_experiments.py --run-name h2_resnet_unfreeze_strong_20epochs --models resnet18 --augmentation strong --trainable-backbone --label-smoothing 0.0 --output-root artifacts/improved_baseline_20epochs --plots-root artifacts/plots_20epochs --split-csv artifacts/baseline_20epochs/splits.csv --epochs-resnet 20 --epochs-vit 20 --num-workers 0
+============================================================
+END: 2026-04-23 12:12:35 | EXIT_CODE: 0 | RUN: p3_h2_resnet_unfreeze_strong_20epochs
+============================================================
+RUN: p3_h3_resnet_unfreeze_strong_weighted_ls_20epochs
+START: 2026-04-23 12:12:35
+LOG: artifacts/logs/p2_p3_20epochs_20260423_110224/p3_h3_resnet_unfreeze_strong_weighted_ls_20epochs.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/improved_baseline_experiments.py --run-name h3_resnet_unfreeze_strong_weighted_ls_20epochs --models resnet18 --augmentation strong --trainable-backbone --weighted-loss --label-smoothing 0.1 --output-root artifacts/improved_baseline_20epochs --plots-root artifacts/plots_20epochs --split-csv artifacts/baseline_20epochs/splits.csv --epochs-resnet 20 --epochs-vit 20 --num-workers 0
+============================================================
+END: 2026-04-23 12:25:30 | EXIT_CODE: 0 | RUN: p3_h3_resnet_unfreeze_strong_weighted_ls_20epochs
+============================================================
+RUN: p3_final_improved_resnet_vit_20epochs
+START: 2026-04-23 12:25:30
+LOG: artifacts/logs/p2_p3_20epochs_20260423_110224/p3_final_improved_resnet_vit_20epochs.log
+CMD: TQDM_DISABLE=1 .venv/bin/python src/improved_baseline_experiments.py --run-name final_improved_baseline_20epochs --models resnet18 vit_b_16 --augmentation weak --trainable-backbone --label-smoothing 0.0 --output-root artifacts/improved_baseline_20epochs --plots-root artifacts/plots_20epochs --split-csv artifacts/baseline_20epochs/splits.csv --epochs-resnet 20 --epochs-vit 20 --num-workers 0
+============================================================
+END: 2026-04-23 13:58:34 | EXIT_CODE: 0 | RUN: p3_final_improved_resnet_vit_20epochs

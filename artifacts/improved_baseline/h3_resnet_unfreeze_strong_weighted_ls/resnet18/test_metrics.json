@@ -1,0 +1,14 @@
+{
+  "model_name": "resnet18",
+  "best_epoch": 14,
+  "best_val_macro_f1": 0.9495072698516134,
+  "train_seconds": 769.2230060100555,
+  "test_metrics": {
+    "accuracy": 0.9396411092985318,
+    "macro_f1": 0.9292394992495095,
+    "weighted_f1": 0.9392838092168202,
+    "macro_precision": 0.9303853650410122,
+    "macro_recall": 0.9292862276837498,
+    "loss": 0.812851583977119
+  }
+}

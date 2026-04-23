@@ -1,0 +1,92 @@
+Using device: mps
+Run name: improved_long
+Phase: improved
+
+=== Training custom_cnn ===
+[custom_cnn] epoch 01/40 | train_loss=1.7437, val_loss=1.6745, val_acc=0.4252, val_macro_f1=0.3574
+[custom_cnn] epoch 02/40 | train_loss=1.5347, val_loss=1.5982, val_acc=0.4562, val_macro_f1=0.3819
+[custom_cnn] epoch 03/40 | train_loss=1.4060, val_loss=1.4456, val_acc=0.4948, val_macro_f1=0.4714
+[custom_cnn] epoch 04/40 | train_loss=1.3406, val_loss=1.6136, val_acc=0.4715, val_macro_f1=0.4223
+[custom_cnn] epoch 05/40 | train_loss=1.2580, val_loss=1.4029, val_acc=0.5334, val_macro_f1=0.4811
+[custom_cnn] epoch 06/40 | train_loss=1.1957, val_loss=1.2591, val_acc=0.5710, val_macro_f1=0.5433
+[custom_cnn] epoch 07/40 | train_loss=1.1184, val_loss=1.2068, val_acc=0.5862, val_macro_f1=0.5551
+[custom_cnn] epoch 08/40 | train_loss=1.0635, val_loss=1.2863, val_acc=0.5536, val_macro_f1=0.5175
+[custom_cnn] epoch 09/40 | train_loss=1.0076, val_loss=1.1743, val_acc=0.6226, val_macro_f1=0.6232
+[custom_cnn] epoch 10/40 | train_loss=0.9595, val_loss=1.0169, val_acc=0.6759, val_macro_f1=0.6472
+[custom_cnn] epoch 11/40 | train_loss=0.9274, val_loss=1.1008, val_acc=0.6542, val_macro_f1=0.6262
+[custom_cnn] epoch 12/40 | train_loss=0.8892, val_loss=1.0277, val_acc=0.6683, val_macro_f1=0.6536
+[custom_cnn] epoch 13/40 | train_loss=0.8592, val_loss=1.0809, val_acc=0.6558, val_macro_f1=0.6264
+[custom_cnn] epoch 14/40 | train_loss=0.8090, val_loss=0.9832, val_acc=0.6721, val_macro_f1=0.6518
+[custom_cnn] epoch 15/40 | train_loss=0.8061, val_loss=1.4625, val_acc=0.5835, val_macro_f1=0.5801
+[custom_cnn] epoch 16/40 | train_loss=0.7456, val_loss=0.7989, val_acc=0.7379, val_macro_f1=0.7177
+[custom_cnn] epoch 17/40 | train_loss=0.7144, val_loss=0.8001, val_acc=0.7325, val_macro_f1=0.7208
+[custom_cnn] epoch 18/40 | train_loss=0.6813, val_loss=0.8525, val_acc=0.7281, val_macro_f1=0.7166
+[custom_cnn] epoch 19/40 | train_loss=0.6611, val_loss=0.9103, val_acc=0.6933, val_macro_f1=0.6701
+[custom_cnn] epoch 20/40 | train_loss=0.6447, val_loss=0.9020, val_acc=0.7069, val_macro_f1=0.6796
+[custom_cnn] epoch 21/40 | train_loss=0.6173, val_loss=0.7495, val_acc=0.7520, val_macro_f1=0.7371
+[custom_cnn] epoch 22/40 | train_loss=0.5870, val_loss=0.6549, val_acc=0.7983, val_macro_f1=0.7855
+[custom_cnn] epoch 23/40 | train_loss=0.5483, val_loss=0.7597, val_acc=0.7645, val_macro_f1=0.7501
+[custom_cnn] epoch 24/40 | train_loss=0.5315, val_loss=0.6699, val_acc=0.7830, val_macro_f1=0.7680
+[custom_cnn] epoch 25/40 | train_loss=0.5089, val_loss=0.7018, val_acc=0.7879, val_macro_f1=0.7705
+[custom_cnn] epoch 26/40 | train_loss=0.4843, val_loss=0.6949, val_acc=0.7765, val_macro_f1=0.7675
+[custom_cnn] epoch 27/40 | train_loss=0.4585, val_loss=0.6695, val_acc=0.7923, val_macro_f1=0.7730
+[custom_cnn] epoch 28/40 | train_loss=0.4534, val_loss=0.6199, val_acc=0.8015, val_macro_f1=0.7897
+[custom_cnn] epoch 29/40 | train_loss=0.4338, val_loss=0.6482, val_acc=0.7972, val_macro_f1=0.7830
+[custom_cnn] epoch 30/40 | train_loss=0.4088, val_loss=0.6476, val_acc=0.8010, val_macro_f1=0.7911
+[custom_cnn] epoch 31/40 | train_loss=0.3969, val_loss=0.5719, val_acc=0.8200, val_macro_f1=0.8082
+[custom_cnn] epoch 32/40 | train_loss=0.3762, val_loss=0.5884, val_acc=0.8151, val_macro_f1=0.8027
+[custom_cnn] epoch 33/40 | train_loss=0.3680, val_loss=0.5643, val_acc=0.8200, val_macro_f1=0.8083
+[custom_cnn] epoch 34/40 | train_loss=0.3606, val_loss=0.5512, val_acc=0.8260, val_macro_f1=0.8125
+[custom_cnn] epoch 35/40 | train_loss=0.3482, val_loss=0.5452, val_acc=0.8331, val_macro_f1=0.8223
+[custom_cnn] epoch 36/40 | train_loss=0.3426, val_loss=0.5146, val_acc=0.8336, val_macro_f1=0.8221
+[custom_cnn] epoch 37/40 | train_loss=0.3305, val_loss=0.5320, val_acc=0.8347, val_macro_f1=0.8238
+[custom_cnn] epoch 38/40 | train_loss=0.3294, val_loss=0.5382, val_acc=0.8303, val_macro_f1=0.8194
+[custom_cnn] epoch 39/40 | train_loss=0.3212, val_loss=0.5230, val_acc=0.8380, val_macro_f1=0.8270
+[custom_cnn] epoch 40/40 | train_loss=0.3179, val_loss=0.5361, val_acc=0.8320, val_macro_f1=0.8183
+
+=== Training tiny_vit ===
+[tiny_vit] epoch 01/40 | train_loss=1.8904, val_loss=1.7587, val_acc=0.3752, val_macro_f1=0.3323
+[tiny_vit] epoch 02/40 | train_loss=1.6623, val_loss=1.6316, val_acc=0.4318, val_macro_f1=0.3724
+[tiny_vit] epoch 03/40 | train_loss=1.5462, val_loss=1.5724, val_acc=0.4573, val_macro_f1=0.4039
+[tiny_vit] epoch 04/40 | train_loss=1.4892, val_loss=1.5128, val_acc=0.4910, val_macro_f1=0.4606
+[tiny_vit] epoch 05/40 | train_loss=1.4359, val_loss=1.4814, val_acc=0.4948, val_macro_f1=0.4617
+[tiny_vit] epoch 06/40 | train_loss=1.3918, val_loss=1.4246, val_acc=0.5150, val_macro_f1=0.4779
+[tiny_vit] epoch 07/40 | train_loss=1.3475, val_loss=1.4248, val_acc=0.5024, val_macro_f1=0.4408
+[tiny_vit] epoch 08/40 | train_loss=1.3215, val_loss=1.3532, val_acc=0.5416, val_macro_f1=0.5103
+[tiny_vit] epoch 09/40 | train_loss=1.2766, val_loss=1.3293, val_acc=0.5568, val_macro_f1=0.5314
+[tiny_vit] epoch 10/40 | train_loss=1.2622, val_loss=1.3172, val_acc=0.5454, val_macro_f1=0.5105
+[tiny_vit] epoch 11/40 | train_loss=1.2195, val_loss=1.2840, val_acc=0.5666, val_macro_f1=0.5297
+[tiny_vit] epoch 12/40 | train_loss=1.2085, val_loss=1.2709, val_acc=0.5688, val_macro_f1=0.5317
+[tiny_vit] epoch 13/40 | train_loss=1.1746, val_loss=1.2140, val_acc=0.5905, val_macro_f1=0.5515
+[tiny_vit] epoch 14/40 | train_loss=1.1531, val_loss=1.2320, val_acc=0.5889, val_macro_f1=0.5535
+[tiny_vit] epoch 15/40 | train_loss=1.1261, val_loss=1.2101, val_acc=0.5987, val_macro_f1=0.5671
+[tiny_vit] epoch 16/40 | train_loss=1.0999, val_loss=1.2333, val_acc=0.5835, val_macro_f1=0.5583
+[tiny_vit] epoch 17/40 | train_loss=1.0778, val_loss=1.1968, val_acc=0.6079, val_macro_f1=0.5832
+[tiny_vit] epoch 18/40 | train_loss=1.0600, val_loss=1.1755, val_acc=0.6036, val_macro_f1=0.5747
+[tiny_vit] epoch 19/40 | train_loss=1.0452, val_loss=1.1953, val_acc=0.6069, val_macro_f1=0.5863
+[tiny_vit] epoch 20/40 | train_loss=1.0143, val_loss=1.1574, val_acc=0.6166, val_macro_f1=0.5908
+[tiny_vit] epoch 21/40 | train_loss=1.0024, val_loss=1.1912, val_acc=0.6139, val_macro_f1=0.5830
+[tiny_vit] epoch 22/40 | train_loss=0.9936, val_loss=1.2295, val_acc=0.6085, val_macro_f1=0.5816
+[tiny_vit] epoch 23/40 | train_loss=0.9713, val_loss=1.1541, val_acc=0.6232, val_macro_f1=0.5942
+[tiny_vit] epoch 24/40 | train_loss=0.9526, val_loss=1.1298, val_acc=0.6324, val_macro_f1=0.6116
+[tiny_vit] epoch 25/40 | train_loss=0.9322, val_loss=1.1140, val_acc=0.6308, val_macro_f1=0.6110
+[tiny_vit] epoch 26/40 | train_loss=0.9177, val_loss=1.1243, val_acc=0.6253, val_macro_f1=0.6085
+[tiny_vit] epoch 27/40 | train_loss=0.9050, val_loss=1.1118, val_acc=0.6373, val_macro_f1=0.6211
+[tiny_vit] epoch 28/40 | train_loss=0.8959, val_loss=1.1048, val_acc=0.6378, val_macro_f1=0.6204
+[tiny_vit] epoch 29/40 | train_loss=0.8726, val_loss=1.1141, val_acc=0.6504, val_macro_f1=0.6320
+[tiny_vit] epoch 30/40 | train_loss=0.8651, val_loss=1.1091, val_acc=0.6487, val_macro_f1=0.6241
+[tiny_vit] epoch 31/40 | train_loss=0.8594, val_loss=1.1047, val_acc=0.6525, val_macro_f1=0.6325
+[tiny_vit] epoch 32/40 | train_loss=0.8483, val_loss=1.1164, val_acc=0.6395, val_macro_f1=0.6240
+[tiny_vit] epoch 33/40 | train_loss=0.8484, val_loss=1.1059, val_acc=0.6520, val_macro_f1=0.6349
+[tiny_vit] epoch 34/40 | train_loss=0.8302, val_loss=1.1015, val_acc=0.6476, val_macro_f1=0.6305
+[tiny_vit] epoch 35/40 | train_loss=0.8343, val_loss=1.0936, val_acc=0.6514, val_macro_f1=0.6348
+[tiny_vit] epoch 36/40 | train_loss=0.8296, val_loss=1.0962, val_acc=0.6531, val_macro_f1=0.6357
+[tiny_vit] epoch 37/40 | train_loss=0.8136, val_loss=1.0952, val_acc=0.6574, val_macro_f1=0.6435
+[tiny_vit] epoch 38/40 | train_loss=0.8210, val_loss=1.0933, val_acc=0.6585, val_macro_f1=0.6437
+[tiny_vit] epoch 39/40 | train_loss=0.8164, val_loss=1.0919, val_acc=0.6591, val_macro_f1=0.6438
+[tiny_vit] epoch 40/40 | train_loss=0.8170, val_loss=1.0915, val_acc=0.6585, val_macro_f1=0.6432
+
+=== Summary ===
+model_name    phase  params_trainable  best_epoch  best_val_macro_f1  train_seconds     lr  test_accuracy  test_macro_f1  test_weighted_f1  test_macro_precision  test_macro_recall
+custom_cnn improved           1175786          39           0.826971    1754.375986 0.0006       0.809679       0.789394          0.808705              0.806535           0.780724
+  tiny_vit improved            918410          39           0.643764    1366.284861 0.0002       0.623165       0.602135          0.618857              0.621886           0.594036

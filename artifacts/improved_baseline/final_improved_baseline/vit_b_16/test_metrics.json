@@ -1,0 +1,14 @@
+{
+  "model_name": "vit_b_16",
+  "best_epoch": 16,
+  "best_val_macro_f1": 0.9672661392051884,
+  "train_seconds": 4849.965709924698,
+  "test_metrics": {
+    "accuracy": 0.9592169657422512,
+    "macro_f1": 0.9532122680193236,
+    "weighted_f1": 0.9591349243531084,
+    "macro_precision": 0.9534903680332715,
+    "macro_recall": 0.9530005727069559,
+    "loss": 0.28331710583715497
+  }
+}

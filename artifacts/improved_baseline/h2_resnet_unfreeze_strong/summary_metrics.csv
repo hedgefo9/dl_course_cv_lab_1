@@ -1,0 +1,2 @@
+model_name,best_epoch,best_val_macro_f1,train_seconds,test_accuracy,test_macro_f1,test_weighted_f1,test_macro_precision,test_macro_recall
+resnet18,17,0.9493569601777946,763.2212941646576,0.9363784665579119,0.9244100656861395,0.9355892196925475,0.9340326312282865,0.9180409685768275

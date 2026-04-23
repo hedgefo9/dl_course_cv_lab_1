@@ -1,0 +1,17 @@
+{
+  "model_name": "custom_cnn",
+  "phase": "baseline",
+  "best_epoch": 38,
+  "best_val_macro_f1": 0.7997483095685277,
+  "train_seconds": 1652.4557287693024,
+  "params_trainable": 1175786,
+  "lr": 0.001,
+  "test_metrics": {
+    "accuracy": 0.7879282218597063,
+    "macro_f1": 0.7805647177000579,
+    "weighted_f1": 0.7871877578805078,
+    "macro_precision": 0.7974610756035501,
+    "macro_recall": 0.7748404854427129,
+    "loss": 0.651117749224544
+  }
+}

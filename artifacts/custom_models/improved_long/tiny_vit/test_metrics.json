@@ -1,0 +1,17 @@
+{
+  "model_name": "tiny_vit",
+  "phase": "improved",
+  "best_epoch": 36,
+  "best_val_macro_f1": 0.7350404515417972,
+  "train_seconds": 3339.619040966034,
+  "params_trainable": 8632458,
+  "lr": 0.0003,
+  "test_metrics": {
+    "accuracy": 0.7036432843936922,
+    "macro_f1": 0.6917722457857123,
+    "weighted_f1": 0.7038282520503649,
+    "macro_precision": 0.7083093467887757,
+    "macro_recall": 0.6839492966944085,
+    "loss": 1.1704233947689602
+  }
+}

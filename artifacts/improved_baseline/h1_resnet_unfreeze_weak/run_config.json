@@ -1,0 +1,18 @@
+{
+  "run_name": "h1_resnet_unfreeze_weak_20epochs",
+  "seed": 42,
+  "device": "mps",
+  "augmentation": "weak",
+  "trainable_backbone": true,
+  "weighted_loss": false,
+  "label_smoothing": 0.0,
+  "models": [
+    "resnet18"
+  ],
+  "epochs_resnet": 20,
+  "epochs_vit": 20,
+  "batch_size_resnet": 64,
+  "batch_size_vit": 16,
+  "split_csv": "artifacts/baseline_20epochs/splits.csv",
+  "data_root": "/Users/hedgefo9/Projects/dl_labs/cv_1/dataset/standardized_256"
+}

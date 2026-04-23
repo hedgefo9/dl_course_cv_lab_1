@@ -1,0 +1,37 @@
+{
+  "data_root": "/Users/hedgefo9/Projects/dl_labs/cv_1/dataset/standardized_256",
+  "num_images": 12259,
+  "num_classes": 10,
+  "classes": [
+    "battery",
+    "biological",
+    "cardboard",
+    "clothes",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "shoes",
+    "trash"
+  ],
+  "split_counts": {
+    "train": 8581,
+    "test": 1839,
+    "val": 1839
+  },
+  "per_class_counts": {
+    "clothes": 1892,
+    "glass": 1736,
+    "plastic": 1597,
+    "shoes": 1449,
+    "cardboard": 1411,
+    "paper": 1336,
+    "metal": 930,
+    "battery": 756,
+    "biological": 699,
+    "trash": 453
+  },
+  "seed": 42,
+  "device": "mps",
+  "trainable_backbone": false
+}

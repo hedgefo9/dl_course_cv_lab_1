@@ -1,0 +1,7 @@
+.venv
+.idea
+*.pt
+artifacts/**/splits.csv
+# !artifacts/.gitkeep
+dataset/*
+!dataset/.gitkeep
